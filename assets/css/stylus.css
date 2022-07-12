@@ -42,6 +42,10 @@ body {
     display: block;
     margin-bottom: 1rem;
 }
+.principal__botao:hover{
+    background-color: aquamarine;
+    color: var(--cor-de-fundo);
+}
 
 .botao_secundario {
     background-color: transparent;
@@ -131,6 +135,12 @@ body {
 .lista__link {
     text-decoration: none;
     color: var(--branco-principal);
+}
+.lista__link:hover{
+    color: var(--botao-azul);
+}
+.lista__link:active{
+    color: purple;
 }
 .footer__texto{
     margin-bottom: 1.5rem;
