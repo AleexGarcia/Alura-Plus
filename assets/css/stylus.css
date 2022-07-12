@@ -23,7 +23,6 @@ body{
    align-items: center;
 }
 .principal{
-
     text-align: center;
     background-image: url(../img/Background.png);
     background-repeat: no-repeat;
@@ -62,6 +61,9 @@ body{
 .secundario__imagem{
     width: 80%;
 }
+.secundario__caixa{
+    padding: 1rem;
+}
 .caixa__titulo{
     font-weight: 700;
     font-size: 48px;
@@ -69,4 +71,8 @@ body{
 }
 .caixa__descricao{
     color: var(--cinza-secundario);
+}
+.secundario__botao{
+    margin-top: 1rem;
+    display: inline-block;
 }
