@@ -18,11 +18,13 @@ body{
 }
 .container{
    height: 100vh; 
+   display: grid;
+   grid-template-columns: 50% 50%;
+   align-items: center;
 }
 .principal{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    
+
+    text-align: center;
     background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -34,6 +36,7 @@ body{
    color: var(--brancoPrincipal);
    text-decoration: none;
    display: block;
+   margin-bottom: 1rem;
 }
 .botao_secundario{
     background-color: transparent;
@@ -46,4 +49,24 @@ body{
 .principal__titulo{
     font-size: 28px;
     font-weight: 700;
+}
+.principal__imagem{
+    margin: 1rem 0 2rem 0;
+}
+.principal__caixa{
+    margin: 0 6rem;
+}
+.secundario{
+   margin: 0 calc((165/1440)*100%); 
+}
+.secundario__imagem{
+    width: 80%;
+}
+.caixa__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+.caixa__descricao{
+    color: var(--cinza-secundario);
 }
